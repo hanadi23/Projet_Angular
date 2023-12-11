@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <h1>GYM Registration App</h1>
+  <span class="example-spacer"></span>
+  <button routerLink="/list" mat-raised-button color="accent">View Enquiries</button>
+  <div style="margin-right: 10px;"></div>
+  <button routerLink="/quiz"mat-raised-button color="accent">Quiz</button>
+</mat-toolbar>
+
+<div style="height:100%" class="container mt-4">
+  <router-outlet> </router-outlet>
+</div>
+
+<lib-ng-toast></lib-ng-toast>
+<ng-confirm></ng-confirm>

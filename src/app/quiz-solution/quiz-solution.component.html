@@ -1,0 +1,14 @@
+
+<div class="quiz-solution-container" >
+ <!--   <h3>Question</h3>
+    <p>{{ questionUser }}</p> -->
+  
+    <div class="form-group">
+      <label for="userResponse">Your Answer</label>
+      <input type="text" class="form-control" id="userResponse" [(ngModel)]="reponseUser" placeholder="Enter your answer">
+    </div>
+  
+    <button class="btn btn-primary" (click)="emitResponse()">Submit Answer</button>
+    
+  </div>
+  
